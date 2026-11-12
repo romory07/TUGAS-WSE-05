@@ -1,0 +1,19 @@
+{
+  "name": "praktikum05-webservice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test-runner.cjs",
+    "start": "node server.cjs",
+    "docs": "node scripts/generate-openapi.cjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "5.3.0",
+    "swagger-ui-express": "5.0.1"
+  }
+}
